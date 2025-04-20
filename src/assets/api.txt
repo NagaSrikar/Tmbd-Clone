@@ -1,0 +1,3 @@
+const url = 'https://api.themoviedb.org/3/trending/movie/day?api_key=991459dc4341e15e78bf990f0bdfc845language=en-US';
+
+https://image.tmdb.org/t/p/original/
