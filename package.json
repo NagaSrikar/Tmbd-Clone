@@ -1,10 +1,13 @@
 {
+  "homepage": "https://NagaSrikar.github.io/TMDB-clone/",
   "name": "tmdb-clone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -12,6 +15,7 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
     "axios": "^1.8.4",
+    "gh-pages": "^6.3.0",
     "keen-slider": "^6.8.6",
     "lucide-react": "^0.501.0",
     "react": "^19.0.0",
